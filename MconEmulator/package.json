@@ -1,0 +1,20 @@
+{
+  "name": "mconresponseemulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test-epc-decoding": "mocha tests/test-epc-decoding.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-no-proxy": "^0.15.3",
+    "hex-to-binary": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
+  }
+}
